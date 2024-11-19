@@ -3,7 +3,7 @@ import runner as rr
 import runner_and_tournament as rt
 
 
-# объявление декоратора frozen для проверки атрибута is_frozen
+# объявление функции декоратора frozen для проверки атрибута is_frozen
 def frozen(func):
     def wrapper(atr):
         # проверка атрибута is_frozen на True или False
